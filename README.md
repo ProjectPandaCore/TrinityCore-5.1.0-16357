@@ -1,46 +1,27 @@
-TrinityCore-MOP-5.1.0
+PandaCore-5.1.0-16357
 =====================
 
-TrinityCore 4.3.4 changed to Mists of Pandaria 5.1.0a
+PandaCore 4.3.4 Mists of Pandaria 5.1.0 Build 16357
 
-last merge 3/02/2013 with TrinityCore 4.3.4.
-commit - 66dfcd2b43286829a200a52aac83d57aac88f140
-
-People are selling this source for a lot of money, i'm giving it out for free.
+commit - No Commit
 
 
-mmaps, vmaps, dbc & SQL world database
+Files to start the server:
 
-https://mega.co.nz/#!BoNEUBgI!Qp8psxnb9rFz24VpSSjOI0x8WpkaIgfvCoyyuyAzbLY
-
-
-
-https://github.com/Kittnz/TrinityCore-MOP-5.1.0
-
-
-
-
-
-
-# ![logo](http://www.trinitycore.org/f/public/style_images/1_trinitycore.png) TrinityCore
+mmaps - No Links
+vmaps - No Links
+maps - No Links
+dbc - No Links
 
 
 ## Introduction
 
-TrinityCore is a *MMORPG* Framework based mostly in C++.
+PandaCore is a *MMORPG* Framework based mostly in C++.
 
 It is derived from *MaNGOS*, the *Massive Network Game Object Server*, and is
 based on the code of that project with extensive changes over time to optimize,
 improve and cleanup the codebase at the same time as improving the in-game
 mechanics and functionality.
-
-It is completely open source; community involvement is highly encouraged.
-
-If you wish to contribute ideas or code please visit our site linked below or
-make pull requests to our [Github repository](https://github.com/TrinityCore/TrinityCore).
-
-For further information on the TrinityCore project, please visit our project
-website at [TrinityCore.org](http://www.trinitycore.org).
 
 
 ## Requirements
@@ -52,53 +33,27 @@ website at [TrinityCore.org](http://www.trinitycore.org).
 + CMake = 2.8.0
 + OpenSSL = 1.0.0
 + GCC = 4.7.2 (Linux only)
-+ MS Visual Studio = 12 (2013) (Windows only)
++ MS Visual Studio = 10 (2010 Professional) (Windows XP SP3)
++ MS Visual Studio = 11 (2012 Ultimate) (Windows 7 Home Basic)
 
 
 ## Install
 
-Detailed installation guides are available in the wiki for
-[Windows](http://collab.kpsn.org/display/tc/How-to_Win),
-[Linux](http://collab.kpsn.org/display/tc/How-to_Linux) and
-[Mac OSX](http://collab.kpsn.org/display/tc/How-to_Mac).
+Detailed installation guides
+[Windows] No instructions
+[Linux] No instructions
+[Mac OSX] No instructions
 
 
-## Reporting issues
-
-Issues can be reported via the [Github issue tracker](https://github.com/TrinityCore/TrinityCore/issues?labels=Branch-3.3.5a).
-
-Please take the time to review existing issues before submitting your own to
-prevent duplicates.
-
-In addition, thoroughly read through the [issue tracker guide](http://www.trinitycore.org/f/topic/37-the-trinitycore-issuetracker-and-you/) to ensure
-your report contains the required information. Incorrect or poorly formed
-reports are wasteful and are subject to deletion.
-
-
-## Submitting fixes
-
-Fixes are submitted as pull requests via Github. For more information on how to
-properly submit a pull request, read the [how-to: maintain a remote fork](http://www.trinitycore.org/f/topic/6037-howto-maintain-a-remote-fork-for-pull-requests-tortoisegit/).
-
-
-## Copyright
-
-License: GPL 2.0
-
-Read file [COPYING](COPYING)
-
-
-## Authors &amp; Contributors
-
-Read file [THANKS](THANKS)
+## Copyright (c)2015
 
 
 ## Links
 
-[Site](http://www.trinitycore.org)
+[Site] No Links
 
-[Wiki](http://trinitycore.info)
+[Wiki] No Links
 
-[Documentation](http://www.trinitycore.net) (powered by Doxygen)
+[Documentation] No Links
 
-[Forums](http://www.trinitycore.org/f/)
+[Forums] No Links
