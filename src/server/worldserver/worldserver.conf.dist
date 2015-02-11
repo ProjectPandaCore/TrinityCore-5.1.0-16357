@@ -1130,7 +1130,7 @@ TalentsInspecting = 1
 ###################################################################################################
 
 ThreatRadius = 60
-Rate.Creature.Aggro = 1
+Rate.Creature.Aggro = 0.7
 CreatureFamilyFleeAssistanceRadius = 30
 CreatureFamilyAssistanceRadius = 10
 CreatureFamilyAssistanceDelay = 1500
