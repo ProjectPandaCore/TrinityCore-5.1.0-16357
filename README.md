@@ -1,7 +1,7 @@
 PandaCore-5.1.0-16357
 =====================
 
-PandaCore 4.3.4 Mists of Pandaria 5.1.0 Build 16357
+PandaCore Mists of Pandaria 5.1.0 Build 16357
 
 commit - No Commit
 
