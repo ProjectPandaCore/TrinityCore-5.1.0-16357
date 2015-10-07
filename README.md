@@ -6,12 +6,12 @@ PandaCore Mists of Pandaria 5.1.0 Build 16357
 commit - No Commit
 
 
-Files to start the server:
+## Files to start the server:
 
-+mmaps - No Links
-+vmaps - No Links
-+maps - No Links
-+dbc - No Links
++ mmaps - No Links
++ vmaps - No Links
++ maps - No Links
++ dbc - No Links
 
 
 ## Introduction
