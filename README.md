@@ -40,9 +40,9 @@ mechanics and functionality.
 ## Install
 
 Detailed installation guides
-[Windows] No instructions
-[Linux] No instructions
-[Mac OSX] No instructions
++ [Windows] No instructions
++ [Linux] No instructions
++ [Mac OSX] No instructions
 
 
 ## Copyright (c)2015
