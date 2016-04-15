@@ -175,6 +175,7 @@ enum WorldBoolConfigs
     CONFIG_WINTERGRASP_ENABLE,
     CONFIG_GUILD_LEVELING_ENABLED,
     CONFIG_UI_QUESTLEVELS_IN_DIALOGS,     // Should we add quest levels to the title in the NPC dialogs?
+    CONFIG_EXTERNAL_MAIL_ENABLE,
     BOOL_CONFIG_VALUE_COUNT
 };
 
@@ -350,6 +351,7 @@ enum WorldIntConfigs
 	CONFIG_BLACKMARKET_AUCTION_DELAY,
 	CONFIG_BLACKMARKET_AUCTION_DELAY_MOD,
     CONFIG_UNDERMAP_LEVEL,
+    CONFIG_EXTERNAL_MAIL_INTERVAL,
     INT_CONFIG_VALUE_COUNT
 };
 
@@ -797,6 +799,7 @@ class World
         time_t m_startTime;
         time_t m_gameTime;
         IntervalTimer m_timers[WUPDATE_COUNT];
+        IntervalTimer extmail_timer;
         time_t mail_timer;
         time_t mail_timer_expires;
         uint32 m_updateTime, m_updateTimeSum;

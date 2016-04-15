@@ -2380,3 +2380,20 @@ Currency.MaxJusticePoints = 4000
 Currency.StartConquestPoints = 0
 Currency.ConquestPointsDefaultWeekCap = 1350
 Currency.ConquestPointsArenaReward = 180
+
+#####################################################################################################
+# MAIL EXTERNAL
+#
+#    External.Mail.Enable
+#        Enable external mail delivery from mail_external table.
+#        Default: 0 (disabled)
+#                 1 (enabled)
+#
+#    External.Mail.Interval
+#        Mail delivery delay time for item sending from mail_external table, in minutes.
+#        Default: 5 minutes
+#
+#####################################################################################################
+
+External.Mail.Enable = 0
+External.Mail.Interval = 5
