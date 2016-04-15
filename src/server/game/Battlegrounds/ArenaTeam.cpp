@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2008-2013 TrinityCore <http://www.trinitycore.org/>
+ * Copyright (C) 2008-2016 TrinityCore <http://www.trinitycore.org/>
  * Copyright (C) 2005-2009 MaNGOS <http://getmangos.com/>
  *
  * This program is free software; you can redistribute it and/or modify it
@@ -102,7 +102,7 @@ bool ArenaTeam::AddMember(uint64 playerGuid)
     if (player)
     {
         playerClass = player->getClass();
-        playerName = player->GetName();
+        playerName  = player->GetName();
     }
     else
     {
@@ -115,7 +115,7 @@ bool ArenaTeam::AddMember(uint64 playerGuid)
         if (!result)
             return false;
 
-        playerName = (*result)[0].GetString();
+        playerName  = (*result)[0].GetString();
         playerClass = (*result)[1].GetUInt8();
     }
 
@@ -377,20 +377,20 @@ void ArenaTeam::Roster(WorldSession* session)
         player = ObjectAccessor::FindPlayer(itr->Guid);
 
         data << uint64(itr->Guid);                          // guid
-        data << uint8((player ? 1 : 0));                        // online flag
+        data << uint8((player ? 1 : 0));                    // online flag
         data << itr->Name;                                  // member name
         data << uint32((itr->Guid == GetCaptain() ? 0 : 1));// captain flag 0 captain 1 member
         data << uint8((player ? player->getLevel() : 0));           // unknown, level?
         data << uint8(itr->Class);                          // class
-        data << uint32(itr->WeekGames);                    // played this week
-        data << uint32(itr->WeekWins);                     // wins this week
-        data << uint32(itr->SeasonGames);                  // played this season
-        data << uint32(itr->SeasonWins);                   // wins this season
-        data << uint32(itr->PersonalRating);               // personal rating
+        data << uint32(itr->WeekGames);                     // played this week
+        data << uint32(itr->WeekWins);                      // wins this week
+        data << uint32(itr->SeasonGames);                   // played this season
+        data << uint32(itr->SeasonWins);                    // wins this season
+        data << uint32(itr->PersonalRating);                // personal rating
         if (unk308)
         {
-            data << float(0.0f);                           // 308 unk
-            data << float(0.0f);                           // 308 unk
+            data << float(0.0f);                            // 308 unk
+            data << float(0.0f);                            // 308 unk
         }
     }
 
@@ -573,7 +573,7 @@ uint32 ArenaTeam::GetAverageMMR(Group* group) const
         return 0;
 
     uint32 matchMakerRating = 0;
-    uint32 playerDivider = 0;
+    uint32 playerDivider    = 0;
     for (MemberList::const_iterator itr = Members.begin(); itr != Members.end(); ++itr)
     {
         // Skip if player is not online
@@ -837,13 +837,13 @@ void ArenaTeam::FinishWeek()
 {
     // Reset team stats
     Stats.WeekGames = 0;
-    Stats.WeekWins = 0;
+    Stats.WeekWins  = 0;
 
     // Reset member stats
     for (MemberList::iterator itr = Members.begin(); itr != Members.end(); ++itr)
     {
         itr->WeekGames = 0;
-        itr->WeekWins = 0;
+        itr->WeekWins  = 0;
     }
 }
 

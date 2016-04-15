@@ -6,6 +6,6 @@
 #define PRODUCTVER 0,0,@rev_id@,0
 #define STRFILEVER "0, 0, @rev_id@, @rev_hash@"
 #define STRPRODUCTVER "0, 0, @rev_id@, @rev_hash@"
-#define VER_COMPANYNAME_STR        "Flame-WoW Developers"
-#define VER_LEGALCOPYRIGHT_STR     "(c) 2013  Flame-WoW Development Core"
+#define VER_COMPANYNAME_STR        "TrinityCore Developers"
+#define VER_LEGALCOPYRIGHT_STR     "(c) 2015-2016  TrinityCore Development"
 #endif // __REVISION_H__
