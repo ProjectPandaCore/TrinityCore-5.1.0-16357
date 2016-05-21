@@ -884,7 +884,7 @@ Motd = "Welcome to a Trinity Core server."
 Server.LoginInfo = 0
 Command.LookupMaxResults = 0
 AllowTickets = 1
-DungeonFinder.OptionsMask = 1
+DungeonFinder.OptionsMask = 0
 DBC.EnforceItemAttributes = 1
 AccountInstancesPerHour = 5
 
