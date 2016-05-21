@@ -470,23 +470,6 @@ void World::LoadConfigSettings(bool reload)
     rate_values[RATE_XP_KILL]     = ConfigMgr::GetFloatDefault("Rate.XP.Kill", 1.0f);
     rate_values[RATE_XP_QUEST]    = ConfigMgr::GetFloatDefault("Rate.XP.Quest", 1.0f);
     rate_values[RATE_XP_EXPLORE]  = ConfigMgr::GetFloatDefault("Rate.XP.Explore", 1.0f);
-
-    // Vip Account System
-    rate_values[RATE_XP_KILL_PREMIUM]    = ConfigMgr::GetFloatDefault("Rate.XP.Kill.Premium", 1.0f);
-    rate_values[RATE_XP_QUEST_PREMIUM]   = ConfigMgr::GetFloatDefault("Rate.XP.Quest.Premium", 1.0f);
-    rate_values[RATE_XP_EXPLORE_PREMIUM] = ConfigMgr::GetFloatDefault("Rate.XP.Explore.Premium", 1.0f);
-    rate_values[RATE_REPUTATION_GAIN_PREMIUM]  = ConfigMgr::GetFloatDefault("Rate.Reputation.Gain.Premium", 1.0f);
-    rate_values[RATE_HONOR_PREMIUM] = ConfigMgr::GetFloatDefault("Rate.Honor.Premium", 1.0f);
-
-    // Vip Account Commands System
-    m_bool_configs[CONFIG_VIP_DEBUFF_COMMAND] = ConfigMgr::GetBoolDefault("Vip.Debuff.Command", true);
-    m_bool_configs[CONFIG_VIP_BANK_COMMAND] = ConfigMgr::GetBoolDefault("Vip.Bank.Command", true);
-    m_bool_configs[CONFIG_VIP_REPAIR_COMMAND] = ConfigMgr::GetBoolDefault("Vip.Repair.Command", true);
-    m_bool_configs[CONFIG_VIP_RESET_TALENTS_COMMAND] = ConfigMgr::GetBoolDefault("Vip.Reset.Talents.Command", true);
-    m_bool_configs[CONFIG_VIP_TAXI_COMMAND] = ConfigMgr::GetBoolDefault("Vip.Taxi.Command", true);
-    m_bool_configs[CONFIG_VIP_HOME_COMMAND] = ConfigMgr::GetBoolDefault("Vip.Home.Command", true);
-    m_bool_configs[CONFIG_VIP_CAPITAL_COMMAND] = ConfigMgr::GetBoolDefault("Vip.Capital.Command", true);
-
     rate_values[RATE_REPAIRCOST]  = ConfigMgr::GetFloatDefault("Rate.RepairCost", 1.0f);
     if (rate_values[RATE_REPAIRCOST] < 0.0f)
     {

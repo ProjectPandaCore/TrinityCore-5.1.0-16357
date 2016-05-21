@@ -43,7 +43,6 @@ set(sources
   Commands/cs_server.cpp
   Commands/cs_titles.cpp
   Commands/cs_wp.cpp
-  Commands/cs_vip.cpp
   Commands/cs_mmaps.cpp
   Commands/cs_spy.cpp
 #  Commands/cs_pdump.cpp

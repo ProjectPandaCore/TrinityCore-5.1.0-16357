@@ -1174,11 +1174,6 @@ enum TrinityStrings
     LANG_AUTO_BROADCAST                 = 11000,
     LANG_INVALID_REALMID                = 11001,
 
-    // Vip Commands
-    LANG_PLAYER_NOT_VIP                 = 11007,
-    LANG_VIP_COMMAND_DISABLED           = 11008,
-    LANG_VIP_ERROR                      = 11009,
-
     // NOT RESERVED IDS                   12000-1999999999
     LANG_YOU_CHANGE_CHI                 = 12000, // must add string to db
     LANG_YOURS_CHI_CHANGED              = 12001, // must add string to db
