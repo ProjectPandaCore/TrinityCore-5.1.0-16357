@@ -110,6 +110,7 @@ void AddSC_titles_commandscript();
 void AddSC_wp_commandscript();
 void AddSc_boutique();
 void AddSc_spy();
+void AddSC_vip_commandscript();
 
 #ifdef SCRIPTS
 // World
@@ -749,6 +750,7 @@ void AddCommandScripts()
     AddSC_wp_commandscript();
     AddSc_boutique();
     AddSc_spy();
+    AddSC_vip_commandscript();
 }
 
 void AddWorldScripts()
