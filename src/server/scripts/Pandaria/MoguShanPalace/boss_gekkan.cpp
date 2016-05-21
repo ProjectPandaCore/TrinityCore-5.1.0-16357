@@ -1,3 +1,20 @@
+/*
+ * Copyright (C) 2015-2016 TrinityCore <http://www.trinitycore.org/>
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the
+ * Free Software Foundation; either version 2 of the License, or (at your
+ * option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+ * more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
 /* # Script de Sungis : Gekkan # */
 
 /* Notes : What is missing ? : - ...
@@ -22,168 +39,168 @@ INSERT INTO creature_text (entry, groupid, id, text, type, language, probability
 
 enum Spells
 {
-	/* Gekkan */
-	SPELL_RECKLESS_INSPIRATION			= 118988,
-	SPELL_RECKLESS_INSPIRATION_INSTANT	= 129262,
+    /* Gekkan */
+    SPELL_RECKLESS_INSPIRATION          = 118988,
+    SPELL_RECKLESS_INSPIRATION_INSTANT  = 129262,
 
-	/* Glintrok Oracle */
-	SPELL_CLEANSING_FLAME				= 118940,
-	SPELL_FIRE_BOLT						= 118936,
+    /* Glintrok Oracle */
+    SPELL_CLEANSING_FLAME               = 118940,
+    SPELL_FIRE_BOLT                     = 118936,
 
-	/* Glintrok Hexxer */
-	SPELL_HEX_OF_LETHARGY				= 118903,
-	SPELL_DARK_BOLT						= 118917,
+    /* Glintrok Hexxer */
+    SPELL_HEX_OF_LETHARGY               = 118903,
+    SPELL_DARK_BOLT                     = 118917,
 	
-	/* Glintrok Skulker */
-	SPELL_SHANK							= 118963,
-	SPELL_STEALTH						= 118969,
+    /* Glintrok Skulker */
+    SPELL_SHANK                         = 118963,
+    SPELL_STEALTH                       = 118969,
 
-	/* Glintrok Ironhide */
-	SPELL_IRON_PROTECTOR				= 118958
+    /* Glintrok Ironhide */
+    SPELL_IRON_PROTECTOR                = 118958
 };
 
 enum Events
 {
-	/* Gekkan */
-	EVENT_RECKLESS_INSPIRATION_GLINTROK	= 1,
-	EVENT_RECKLESS_INSPIRATION_GEKKAN	= 2,
+    /* Gekkan */
+    EVENT_RECKLESS_INSPIRATION_GLINTROK = 1,
+    EVENT_RECKLESS_INSPIRATION_GEKKAN   = 2,
 
-	/* Glintrok Oracle */
-	EVENT_CLEANSING_FLAME				= 1,
-	EVENT_FIRE_BOLT						= 2,
-	
-	/* Glintrok hexxer */
-	EVENT_HEX_OF_LETHARGY				= 1,
-	EVENT_DARK_BOLT						= 2,
+    /* Glintrok Oracle */
+    EVENT_CLEANSING_FLAME               = 1,
+    EVENT_FIRE_BOLT                     = 2,
 
-	/* Glintrok skulker */
-	EVENT_SHANK							= 1
+    /* Glintrok hexxer */
+    EVENT_HEX_OF_LETHARGY               = 1,
+    EVENT_DARK_BOLT                     = 2,
+
+    /* Glintrok skulker */
+    EVENT_SHANK                         = 1
 };
 
 enum Phases
 {
-	PHASE_NULL,
-	PHASE_NO_RECKLESS_INSPIRATION_DONE,
-	PHASE_FIRST_RECKLESS_INSPIRATION_DONE,
-	PHASE_SECOND_RECKLESS_INSPIRATION_DONE,
-	PHASE_THIRD_RECKLESS_INSPIRATION_DONE,
-	PHASE_LAST_RECKLESS_INSPIRATION_DONE,
+    PHASE_NULL,
+    PHASE_NO_RECKLESS_INSPIRATION_DONE,
+    PHASE_FIRST_RECKLESS_INSPIRATION_DONE,
+    PHASE_SECOND_RECKLESS_INSPIRATION_DONE,
+    PHASE_THIRD_RECKLESS_INSPIRATION_DONE,
+    PHASE_LAST_RECKLESS_INSPIRATION_DONE,
 };
 
 enum Actions
 {
-	ACTION_GEKKAN_RESET,
-	ACTION_GEKKAN_DIED,
-	ACTION_ORACLE_RESET,
-	ACTION_ORACLE_DIED,
-	ACTION_HEXXER_RESET,
-	ACTION_HEXXER_DIED,
-	ACTION_SKULKER_RESET,
-	ACTION_SKULKER_DIED,
-	ACTION_IRONHIDE_RESET,
-	ACTION_IRONHIDE_DIED
+    ACTION_GEKKAN_RESET,
+    ACTION_GEKKAN_DIED,
+    ACTION_ORACLE_RESET,
+    ACTION_ORACLE_DIED,
+    ACTION_HEXXER_RESET,
+    ACTION_HEXXER_DIED,
+    ACTION_SKULKER_RESET,
+    ACTION_SKULKER_DIED,
+    ACTION_IRONHIDE_RESET,
+    ACTION_IRONHIDE_DIED
 };
 
 enum Texts
 {
-	SAY_INTRO					= 0,
-	SAY_AGGRO					= 1,
-	SAY_SLAY					= 2,
-	SAY_DEATH					= 3,
-	SAY_RECKLESS_INSPIRATION	= 4
+    SAY_INTRO                = 0,
+    SAY_AGGRO                = 1,
+    SAY_SLAY                 = 2,
+    SAY_DEATH                = 3,
+    SAY_RECKLESS_INSPIRATION = 4
 };
 
 class boss_gekkan : public CreatureScript
 {
 public:
-	boss_gekkan() : CreatureScript("boss_gekkan") { }
+    boss_gekkan() : CreatureScript("boss_gekkan") { }
 
-	CreatureAI* GetAI(Creature* creature) const
-	{
-		return new boss_gekkanAI(creature);
-	}
+    CreatureAI* GetAI(Creature* creature) const
+    {
+        return new boss_gekkanAI(creature);
+    }
 
-	struct boss_gekkanAI : public ScriptedAI
-	{
-		boss_gekkanAI(Creature *creature) : ScriptedAI(creature)
-		{
-			instance = creature->GetInstanceScript();
-		}
+    struct boss_gekkanAI : public ScriptedAI
+    {
+        boss_gekkanAI(Creature *creature) : ScriptedAI(creature)
+        {
+            instance = creature->GetInstanceScript();
+        }
 
-		InstanceScript* instance;
-		EventMap events;
+        InstanceScript* instance;
+        EventMap events;
 
-		bool checkGekkanAlive;
-		bool checkGlintrokOracleAlive;
+        bool checkGekkanAlive;
+        bool checkGlintrokOracleAlive;
         bool checkGlintrokHexxerAlive;
-		bool checkGlintrokSkulkerAlive;
-		bool checkGlintrokIronhideAlive;
-		bool lastPhase;
-		bool intro;
+        bool checkGlintrokSkulkerAlive;
+        bool checkGlintrokIronhideAlive;
+        bool lastPhase;
+        bool intro;
 
-		void Reset()
-		{
-			events.Reset();
+        void Reset()
+        {
+            events.Reset();
 
-			if (instance)
-			{
-				checkGekkanAlive = true;
-				checkGekkanAlive = me->isAlive();
+            if (instance)
+            {
+                checkGekkanAlive = true;
+                checkGekkanAlive = me->isAlive();
 
-				checkGlintrokOracleAlive = true;
-				if (Creature* oracle = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_ORACLE)))
-					checkGlintrokOracleAlive = oracle->isAlive();
+                checkGlintrokOracleAlive = true;
+                if (Creature* oracle = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_ORACLE)))
+                    checkGlintrokOracleAlive = oracle->isAlive();
 
-				checkGlintrokHexxerAlive = true;
-				if (Creature* hexxer = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_HEXXER)))
-					checkGlintrokHexxerAlive = hexxer->isAlive();
+                checkGlintrokHexxerAlive = true;
+                if (Creature* hexxer = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_HEXXER)))
+                    checkGlintrokHexxerAlive = hexxer->isAlive();
 
-				checkGlintrokSkulkerAlive = true;
-				if (Creature* skulker = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_SKULKER)))
-					checkGlintrokSkulkerAlive = skulker->isAlive();
+                checkGlintrokSkulkerAlive = true;
+                if (Creature* skulker = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_SKULKER)))
+                    checkGlintrokSkulkerAlive = skulker->isAlive();
 
-				checkGlintrokIronhideAlive = true;
-				if (Creature* ironhide = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_IRONHIDE)))
-					checkGlintrokIronhideAlive = ironhide->isAlive();
+                checkGlintrokIronhideAlive = true;
+                if (Creature* ironhide = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_IRONHIDE)))
+                    checkGlintrokIronhideAlive = ironhide->isAlive();
 
-				if (Creature* oracle = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_ORACLE)))
-					if (!oracle->isAlive())
-					{
-						oracle->RemoveCorpse();
-						oracle->Respawn();
-					}
+                if (Creature* oracle = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_ORACLE)))
+                    if (!oracle->isAlive())
+                    {
+                        oracle->RemoveCorpse();
+                        oracle->Respawn();
+                    }
 
-				if (Creature* hexxer = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_HEXXER)))
-					if (!hexxer->isAlive())
-					{
-						hexxer->RemoveCorpse();
-						hexxer->Respawn();
-					}
+                if (Creature* hexxer = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_HEXXER)))
+                    if (!hexxer->isAlive())
+                    {
+                        hexxer->RemoveCorpse();
+                        hexxer->Respawn();
+                    }
 
-				if (Creature* skulker = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_SKULKER)))
-					if (!skulker->isAlive())
-					{
-						skulker->RemoveCorpse();
-						skulker->Respawn();
-					}
+                if (Creature* skulker = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_SKULKER)))
+                    if (!skulker->isAlive())
+                    {
+                        skulker->RemoveCorpse();
+                        skulker->Respawn();
+                    }
 
-				if (Creature* ironhide = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_IRONHIDE)))
-					if (!ironhide->isAlive())
-					{
-						ironhide->RemoveCorpse();
-						ironhide->Respawn();
-					}
+                if (Creature* ironhide = me->GetCreature(*me, instance->GetData64(DATA_GLINTROK_IRONHIDE)))
+                    if (!ironhide->isAlive())
+                    {
+                        ironhide->RemoveCorpse();
+                        ironhide->Respawn();
+                    }
 
-				if (me->HasAura(SPELL_RECKLESS_INSPIRATION_INSTANT))
-					me->RemoveAurasDueToSpell(SPELL_RECKLESS_INSPIRATION_INSTANT);
+                if (me->HasAura(SPELL_RECKLESS_INSPIRATION_INSTANT))
+                    me->RemoveAurasDueToSpell(SPELL_RECKLESS_INSPIRATION_INSTANT);
 
-				events.SetPhase(PHASE_NULL);
-				lastPhase = false;
-				intro = false;
-				instance->SetBossState(DATA_GEKKAN, NOT_STARTED);
-				me->AI()->DoAction(ACTION_GEKKAN_RESET);
-			}
-		}
+                events.SetPhase(PHASE_NULL);
+                lastPhase = false;
+                intro = false;
+                instance->SetBossState(DATA_GEKKAN, NOT_STARTED);
+                me->AI()->DoAction(ACTION_GEKKAN_RESET);
+            }
+        }
 
 		void DoAction(int32 action)
         {
