@@ -61,6 +61,9 @@ Detailed installation guides
 
 ## Release
 
++ Instances:
++ Implement Instance Gate of The SettingSun
+
 + Fixed Quests:
 + 86, 9280, 9409, 10302, 9290, 26968, 9305,
 + 9303, 26968, 31156, 31157, 26966, 26963,
