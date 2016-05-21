@@ -136,22 +136,22 @@ enum BG_AV_ObjectIds
     BG_AV_OBJECTID_TOWER_BANNER_PH = 179436, //[PH] Horde A1 Tower Pre-Banner BIG
 
     //Auras
-    BG_AV_OBJECTID_AURA_A               = 180421,
-    BG_AV_OBJECTID_AURA_H               = 180422,
-    BG_AV_OBJECTID_AURA_N               = 180423,
-    BG_AV_OBJECTID_AURA_A_S             = 180100,
-    BG_AV_OBJECTID_AURA_H_S             = 180101,
-    BG_AV_OBJECTID_AURA_N_S             = 180102,
+    BG_AV_OBJECTID_AURA_A   = 180421,
+    BG_AV_OBJECTID_AURA_H   = 180422,
+    BG_AV_OBJECTID_AURA_N   = 180423,
+    BG_AV_OBJECTID_AURA_A_S = 180100,
+    BG_AV_OBJECTID_AURA_H_S = 180101,
+    BG_AV_OBJECTID_AURA_N_S = 180102,
 
-    BG_AV_OBJECTID_GATE_A               = 180424,
-    BG_AV_OBJECTID_GATE_H               = 180424,
+    BG_AV_OBJECTID_GATE_A   = 180424,
+    BG_AV_OBJECTID_GATE_H   = 180424,
 
     //mine supplies
-    BG_AV_OBJECTID_MINE_N        = 178785,
-    BG_AV_OBJECTID_MINE_S       = 178784,
+    BG_AV_OBJECTID_MINE_N   = 178785,
+    BG_AV_OBJECTID_MINE_S   = 178784,
 
-    BG_AV_OBJECTID_FIRE                 = 179065,
-    BG_AV_OBJECTID_SMOKE                 = 179066
+    BG_AV_OBJECTID_FIRE     = 179065,
+    BG_AV_OBJECTID_SMOKE    = 179066
 };
 
 enum BG_AV_Nodes
@@ -189,29 +189,29 @@ enum BG_AV_ObjectTypes
     BG_AV_OBJECT_FLAG_A_ICEWING_BUNKER      = 9,
     BG_AV_OBJECT_FLAG_A_STONEHEART_BUNKER   = 10,
 
-    BG_AV_OBJECT_FLAG_C_A_FIRSTAID_STATION    = 11,
-    BG_AV_OBJECT_FLAG_C_A_STORMPIKE_GRAVE     = 12,
-    BG_AV_OBJECT_FLAG_C_A_STONEHEART_GRAVE    = 13,
-    BG_AV_OBJECT_FLAG_C_A_SNOWFALL_GRAVE      = 14,
-    BG_AV_OBJECT_FLAG_C_A_ICEBLOOD_GRAVE      = 15,
-    BG_AV_OBJECT_FLAG_C_A_FROSTWOLF_GRAVE     = 16,
-    BG_AV_OBJECT_FLAG_C_A_FROSTWOLF_HUT       = 17,
-    BG_AV_OBJECT_FLAG_C_A_ICEBLOOD_TOWER      = 18,
-    BG_AV_OBJECT_FLAG_C_A_TOWER_POINT         = 19,
-    BG_AV_OBJECT_FLAG_C_A_FROSTWOLF_ETOWER    = 20,
-    BG_AV_OBJECT_FLAG_C_A_FROSTWOLF_WTOWER    = 21,
+    BG_AV_OBJECT_FLAG_C_A_FIRSTAID_STATION  = 11,
+    BG_AV_OBJECT_FLAG_C_A_STORMPIKE_GRAVE   = 12,
+    BG_AV_OBJECT_FLAG_C_A_STONEHEART_GRAVE  = 13,
+    BG_AV_OBJECT_FLAG_C_A_SNOWFALL_GRAVE    = 14,
+    BG_AV_OBJECT_FLAG_C_A_ICEBLOOD_GRAVE    = 15,
+    BG_AV_OBJECT_FLAG_C_A_FROSTWOLF_GRAVE   = 16,
+    BG_AV_OBJECT_FLAG_C_A_FROSTWOLF_HUT     = 17,
+    BG_AV_OBJECT_FLAG_C_A_ICEBLOOD_TOWER    = 18,
+    BG_AV_OBJECT_FLAG_C_A_TOWER_POINT       = 19,
+    BG_AV_OBJECT_FLAG_C_A_FROSTWOLF_ETOWER  = 20,
+    BG_AV_OBJECT_FLAG_C_A_FROSTWOLF_WTOWER  = 21,
 
-    BG_AV_OBJECT_FLAG_C_H_FIRSTAID_STATION    = 22,
-    BG_AV_OBJECT_FLAG_C_H_STORMPIKE_GRAVE     = 23,
-    BG_AV_OBJECT_FLAG_C_H_STONEHEART_GRAVE    = 24,
-    BG_AV_OBJECT_FLAG_C_H_SNOWFALL_GRAVE      = 25,
-    BG_AV_OBJECT_FLAG_C_H_ICEBLOOD_GRAVE      = 26,
-    BG_AV_OBJECT_FLAG_C_H_FROSTWOLF_GRAVE     = 27,
-    BG_AV_OBJECT_FLAG_C_H_FROSTWOLF_HUT       = 28,
-    BG_AV_OBJECT_FLAG_C_H_DUNBALDAR_SOUTH     = 29,
-    BG_AV_OBJECT_FLAG_C_H_DUNBALDAR_NORTH     = 30,
-    BG_AV_OBJECT_FLAG_C_H_ICEWING_BUNKER      = 31,
-    BG_AV_OBJECT_FLAG_C_H_STONEHEART_BUNKER   = 32,
+    BG_AV_OBJECT_FLAG_C_H_FIRSTAID_STATION  = 22,
+    BG_AV_OBJECT_FLAG_C_H_STORMPIKE_GRAVE   = 23,
+    BG_AV_OBJECT_FLAG_C_H_STONEHEART_GRAVE  = 24,
+    BG_AV_OBJECT_FLAG_C_H_SNOWFALL_GRAVE    = 25,
+    BG_AV_OBJECT_FLAG_C_H_ICEBLOOD_GRAVE    = 26,
+    BG_AV_OBJECT_FLAG_C_H_FROSTWOLF_GRAVE   = 27,
+    BG_AV_OBJECT_FLAG_C_H_FROSTWOLF_HUT     = 28,
+    BG_AV_OBJECT_FLAG_C_H_DUNBALDAR_SOUTH   = 29,
+    BG_AV_OBJECT_FLAG_C_H_DUNBALDAR_NORTH   = 30,
+    BG_AV_OBJECT_FLAG_C_H_ICEWING_BUNKER    = 31,
+    BG_AV_OBJECT_FLAG_C_H_STONEHEART_BUNKER = 32,
 
     BG_AV_OBJECT_FLAG_H_FIRSTAID_STATION    = 33,
     BG_AV_OBJECT_FLAG_H_STORMPIKE_GRAVE     = 34,
@@ -253,97 +253,97 @@ enum BG_AV_ObjectTypes
     BG_AV_OBJECT_AURA_H_FROSTWOLF_HUT       = 67,
 
     //big flags on top of towers 2 flags on each (contested, (alliance | horde)) + 2 auras
-    BG_AV_OBJECT_TFLAG_A_DUNBALDAR_SOUTH     = 67,
-    BG_AV_OBJECT_TFLAG_H_DUNBALDAR_SOUTH     = 68,
-    BG_AV_OBJECT_TFLAG_A_DUNBALDAR_NORTH     = 69,
-    BG_AV_OBJECT_TFLAG_H_DUNBALDAR_NORTH     = 70,
-    BG_AV_OBJECT_TFLAG_A_ICEWING_BUNKER      = 71,
-    BG_AV_OBJECT_TFLAG_H_ICEWING_BUNKER      = 72,
-    BG_AV_OBJECT_TFLAG_A_STONEHEART_BUNKER   = 73,
-    BG_AV_OBJECT_TFLAG_H_STONEHEART_BUNKER   = 74,
-    BG_AV_OBJECT_TFLAG_A_ICEBLOOD_TOWER      = 75,
-    BG_AV_OBJECT_TFLAG_H_ICEBLOOD_TOWER      = 76,
-    BG_AV_OBJECT_TFLAG_A_TOWER_POINT         = 77,
-    BG_AV_OBJECT_TFLAG_H_TOWER_POINT         = 78,
-    BG_AV_OBJECT_TFLAG_A_FROSTWOLF_ETOWER    = 79,
-    BG_AV_OBJECT_TFLAG_H_FROSTWOLF_ETOWER    = 80,
-    BG_AV_OBJECT_TFLAG_A_FROSTWOLF_WTOWER    = 81,
-    BG_AV_OBJECT_TFLAG_H_FROSTWOLF_WTOWER    = 82,
-    BG_AV_OBJECT_TAURA_A_DUNBALDAR_SOUTH     = 83,
-    BG_AV_OBJECT_TAURA_H_DUNBALDAR_SOUTH     = 84,
-    BG_AV_OBJECT_TAURA_A_DUNBALDAR_NORTH     = 85,
-    BG_AV_OBJECT_TAURA_H_DUNBALDAR_NORTH     = 86,
-    BG_AV_OBJECT_TAURA_A_ICEWING_BUNKER      = 87,
-    BG_AV_OBJECT_TAURA_H_ICEWING_BUNKER      = 88,
-    BG_AV_OBJECT_TAURA_A_STONEHEART_BUNKER   = 89,
-    BG_AV_OBJECT_TAURA_H_STONEHEART_BUNKER   = 90,
-    BG_AV_OBJECT_TAURA_A_ICEBLOOD_TOWER      = 91,
-    BG_AV_OBJECT_TAURA_H_ICEBLOOD_TOWER      = 92,
-    BG_AV_OBJECT_TAURA_A_TOWER_POINT         = 93,
-    BG_AV_OBJECT_TAURA_H_TOWER_POINT         = 94,
-    BG_AV_OBJECT_TAURA_A_FROSTWOLF_ETOWER    = 95,
-    BG_AV_OBJECT_TAURA_H_FROSTWOLF_ETOWER    = 96,
-    BG_AV_OBJECT_TAURA_A_FROSTWOLF_WTOWER    = 97,
-    BG_AV_OBJECT_TAURA_H_FROSTWOLF_WTOWER    = 98,
+    BG_AV_OBJECT_TFLAG_A_DUNBALDAR_SOUTH    = 67,
+    BG_AV_OBJECT_TFLAG_H_DUNBALDAR_SOUTH    = 68,
+    BG_AV_OBJECT_TFLAG_A_DUNBALDAR_NORTH    = 69,
+    BG_AV_OBJECT_TFLAG_H_DUNBALDAR_NORTH    = 70,
+    BG_AV_OBJECT_TFLAG_A_ICEWING_BUNKER     = 71,
+    BG_AV_OBJECT_TFLAG_H_ICEWING_BUNKER     = 72,
+    BG_AV_OBJECT_TFLAG_A_STONEHEART_BUNKER  = 73,
+    BG_AV_OBJECT_TFLAG_H_STONEHEART_BUNKER  = 74,
+    BG_AV_OBJECT_TFLAG_A_ICEBLOOD_TOWER     = 75,
+    BG_AV_OBJECT_TFLAG_H_ICEBLOOD_TOWER     = 76,
+    BG_AV_OBJECT_TFLAG_A_TOWER_POINT        = 77,
+    BG_AV_OBJECT_TFLAG_H_TOWER_POINT        = 78,
+    BG_AV_OBJECT_TFLAG_A_FROSTWOLF_ETOWER   = 79,
+    BG_AV_OBJECT_TFLAG_H_FROSTWOLF_ETOWER   = 80,
+    BG_AV_OBJECT_TFLAG_A_FROSTWOLF_WTOWER   = 81,
+    BG_AV_OBJECT_TFLAG_H_FROSTWOLF_WTOWER   = 82,
+    BG_AV_OBJECT_TAURA_A_DUNBALDAR_SOUTH    = 83,
+    BG_AV_OBJECT_TAURA_H_DUNBALDAR_SOUTH    = 84,
+    BG_AV_OBJECT_TAURA_A_DUNBALDAR_NORTH    = 85,
+    BG_AV_OBJECT_TAURA_H_DUNBALDAR_NORTH    = 86,
+    BG_AV_OBJECT_TAURA_A_ICEWING_BUNKER     = 87,
+    BG_AV_OBJECT_TAURA_H_ICEWING_BUNKER     = 88,
+    BG_AV_OBJECT_TAURA_A_STONEHEART_BUNKER  = 89,
+    BG_AV_OBJECT_TAURA_H_STONEHEART_BUNKER  = 90,
+    BG_AV_OBJECT_TAURA_A_ICEBLOOD_TOWER     = 91,
+    BG_AV_OBJECT_TAURA_H_ICEBLOOD_TOWER     = 92,
+    BG_AV_OBJECT_TAURA_A_TOWER_POINT        = 93,
+    BG_AV_OBJECT_TAURA_H_TOWER_POINT        = 94,
+    BG_AV_OBJECT_TAURA_A_FROSTWOLF_ETOWER   = 95,
+    BG_AV_OBJECT_TAURA_H_FROSTWOLF_ETOWER   = 96,
+    BG_AV_OBJECT_TAURA_A_FROSTWOLF_WTOWER   = 97,
+    BG_AV_OBJECT_TAURA_H_FROSTWOLF_WTOWER   = 98,
 
-    BG_AV_OBJECT_BURN_DUNBALDAR_SOUTH        = 99,
-    BG_AV_OBJECT_BURN_DUNBALDAR_NORTH        = 109,
-    BG_AV_OBJECT_BURN_ICEWING_BUNKER         = 119,
-    BG_AV_OBJECT_BURN_STONEHEART_BUNKER      = 129,
-    BG_AV_OBJECT_BURN_ICEBLOOD_TOWER         = 139,
-    BG_AV_OBJECT_BURN_TOWER_POINT            = 149,
-    BG_AV_OBJECT_BURN_FROSTWOLF_ETWOER       = 159,
-    BG_AV_OBJECT_BURN_FROSTWOLF_WTOWER       = 169,
-    BG_AV_OBJECT_BURN_BUILDING_ALLIANCE      = 179,
-    BG_AV_OBJECT_BURN_BUILDING_HORDE         = 189,
-    BG_AV_OBJECT_SNOW_EYECANDY_A             = 199,
-    BG_AV_OBJECT_SNOW_EYECANDY_PA            = 203,
-    BG_AV_OBJECT_SNOW_EYECANDY_H             = 207,
-    BG_AV_OBJECT_SNOW_EYECANDY_PH            = 211,
-    BG_AV_OBJECT_MINE_SUPPLY_N_MIN           = 215,
-    BG_AV_OBJECT_MINE_SUPPLY_N_MAX           = 224,
-    BG_AV_OBJECT_MINE_SUPPLY_S_MIN           = 225,
-    BG_AV_OBJECT_MINE_SUPPLY_S_MAX           = 236,
+    BG_AV_OBJECT_BURN_DUNBALDAR_SOUTH       = 99,
+    BG_AV_OBJECT_BURN_DUNBALDAR_NORTH       = 109,
+    BG_AV_OBJECT_BURN_ICEWING_BUNKER        = 119,
+    BG_AV_OBJECT_BURN_STONEHEART_BUNKER     = 129,
+    BG_AV_OBJECT_BURN_ICEBLOOD_TOWER        = 139,
+    BG_AV_OBJECT_BURN_TOWER_POINT           = 149,
+    BG_AV_OBJECT_BURN_FROSTWOLF_ETWOER      = 159,
+    BG_AV_OBJECT_BURN_FROSTWOLF_WTOWER      = 169,
+    BG_AV_OBJECT_BURN_BUILDING_ALLIANCE     = 179,
+    BG_AV_OBJECT_BURN_BUILDING_HORDE        = 189,
+    BG_AV_OBJECT_SNOW_EYECANDY_A            = 199,
+    BG_AV_OBJECT_SNOW_EYECANDY_PA           = 203,
+    BG_AV_OBJECT_SNOW_EYECANDY_H            = 207,
+    BG_AV_OBJECT_SNOW_EYECANDY_PH           = 211,
+    BG_AV_OBJECT_MINE_SUPPLY_N_MIN          = 215,
+    BG_AV_OBJECT_MINE_SUPPLY_N_MAX          = 224,
+    BG_AV_OBJECT_MINE_SUPPLY_S_MIN          = 225,
+    BG_AV_OBJECT_MINE_SUPPLY_S_MAX          = 236,
 
-    BG_AV_OBJECT_MAX                          = 237
+    BG_AV_OBJECT_MAX                        = 237
 };
 
 enum BG_AV_OBJECTS
 {
-    AV_OPLACE_FIRSTAID_STATION          = 0,
-    AV_OPLACE_STORMPIKE_GRAVE         = 1,
-    AV_OPLACE_STONEHEART_GRAVE        = 2,
-    AV_OPLACE_SNOWFALL_GRAVE          = 3,
-    AV_OPLACE_ICEBLOOD_GRAVE          = 4,
-    AV_OPLACE_FROSTWOLF_GRAVE         = 5,
-    AV_OPLACE_FROSTWOLF_HUT           = 6,
-    AV_OPLACE_DUNBALDAR_SOUTH         = 7,
-    AV_OPLACE_DUNBALDAR_NORTH         = 8,
-    AV_OPLACE_ICEWING_BUNKER          = 9,
-    AV_OPLACE_STONEHEART_BUNKER       = 10,
-    AV_OPLACE_ICEBLOOD_TOWER          = 11,
-    AV_OPLACE_TOWER_POINT             = 12,
-    AV_OPLACE_FROSTWOLF_ETOWER        = 13,
-    AV_OPLACE_FROSTWOLF_WTOWER        = 14,
-    AV_OPLACE_BIGBANNER_DUNBALDAR_SOUTH         = 15,
-    AV_OPLACE_BIGBANNER_DUNBALDAR_NORTH         = 16,
-    AV_OPLACE_BIGBANNER_ICEWING_BUNKER          = 17,
-    AV_OPLACE_BIGBANNER_STONEHEART_BUNKER       = 18,
-    AV_OPLACE_BIGBANNER_ICEBLOOD_TOWER          = 19,
-    AV_OPLACE_BIGBANNER_TOWER_POINT             = 20,
-    AV_OPLACE_BIGBANNER_FROSTWOLF_ETOWER        = 21,
-    AV_OPLACE_BIGBANNER_FROSTWOLF_WTOWER        = 22,
+    AV_OPLACE_FIRSTAID_STATION            = 0,
+    AV_OPLACE_STORMPIKE_GRAVE             = 1,
+    AV_OPLACE_STONEHEART_GRAVE            = 2,
+    AV_OPLACE_SNOWFALL_GRAVE              = 3,
+    AV_OPLACE_ICEBLOOD_GRAVE              = 4,
+    AV_OPLACE_FROSTWOLF_GRAVE             = 5,
+    AV_OPLACE_FROSTWOLF_HUT               = 6,
+    AV_OPLACE_DUNBALDAR_SOUTH             = 7,
+    AV_OPLACE_DUNBALDAR_NORTH             = 8,
+    AV_OPLACE_ICEWING_BUNKER              = 9,
+    AV_OPLACE_STONEHEART_BUNKER           = 10,
+    AV_OPLACE_ICEBLOOD_TOWER              = 11,
+    AV_OPLACE_TOWER_POINT                 = 12,
+    AV_OPLACE_FROSTWOLF_ETOWER            = 13,
+    AV_OPLACE_FROSTWOLF_WTOWER            = 14,
+    AV_OPLACE_BIGBANNER_DUNBALDAR_SOUTH   = 15,
+    AV_OPLACE_BIGBANNER_DUNBALDAR_NORTH   = 16,
+    AV_OPLACE_BIGBANNER_ICEWING_BUNKER    = 17,
+    AV_OPLACE_BIGBANNER_STONEHEART_BUNKER = 18,
+    AV_OPLACE_BIGBANNER_ICEBLOOD_TOWER    = 19,
+    AV_OPLACE_BIGBANNER_TOWER_POINT       = 20,
+    AV_OPLACE_BIGBANNER_FROSTWOLF_ETOWER  = 21,
+    AV_OPLACE_BIGBANNER_FROSTWOLF_WTOWER  = 22,
 
-    AV_OPLACE_BURN_DUNBALDAR_SOUTH         = 23,
-    AV_OPLACE_BURN_DUNBALDAR_NORTH         = 33,
-    AV_OPLACE_BURN_ICEWING_BUNKER          = 43,
-    AV_OPLACE_BURN_STONEHEART_BUNKER       = 53,
-    AV_OPLACE_BURN_ICEBLOOD_TOWER          = 63,
-    AV_OPLACE_BURN_TOWER_POINT             = 73,
-    AV_OPLACE_BURN_FROSTWOLF_ETOWER        = 83,
-    AV_OPLACE_BURN_FROSTWOLF_WTOWER        = 93,
-    AV_OPLACE_BURN_BUILDING_A        = 103,
-    AV_OPLACE_BURN_BUILDING_H        = 113,
+    AV_OPLACE_BURN_DUNBALDAR_SOUTH        = 23,
+    AV_OPLACE_BURN_DUNBALDAR_NORTH        = 33,
+    AV_OPLACE_BURN_ICEWING_BUNKER         = 43,
+    AV_OPLACE_BURN_STONEHEART_BUNKER      = 53,
+    AV_OPLACE_BURN_ICEBLOOD_TOWER         = 63,
+    AV_OPLACE_BURN_TOWER_POINT            = 73,
+    AV_OPLACE_BURN_FROSTWOLF_ETOWER       = 83,
+    AV_OPLACE_BURN_FROSTWOLF_WTOWER       = 93,
+    AV_OPLACE_BURN_BUILDING_A             = 103,
+    AV_OPLACE_BURN_BUILDING_H             = 113,
     AV_OPLACE_SNOW_1                      = 123,
     AV_OPLACE_SNOW_2                      = 124,
     AV_OPLACE_SNOW_3                      = 125,
@@ -548,22 +548,22 @@ enum BG_AV_CreaturePlace
     AV_CPLACE_SPIRIT_MAIN_ALLIANCE  = 7,
     AV_CPLACE_SPIRIT_MAIN_HORDE     = 8,
 //i don't will add for all 4 positions a variable.. i think one is enough to compute the rest
-    AV_CPLACE_DEFENSE_STORM_AID      = 9,
-    AV_CPLACE_DEFEMSE_STORM_GRAVE    = 13,
-    AV_CPLACE_DEFENSE_STONE_GRAVE    = 17,
-    AV_CPLACE_DEFENSE_SNOWFALL       = 21,
-    AV_CPLACE_DEFENSE_FROSTWOLF      = 25,
-    AV_CPLACE_DEFENSE_ICE_GRAVE      = 29,
-    AV_CPLACE_DEFENSE_FROST_HUT      = 33,
+    AV_CPLACE_DEFENSE_STORM_AID     = 9,
+    AV_CPLACE_DEFEMSE_STORM_GRAVE   = 13,
+    AV_CPLACE_DEFENSE_STONE_GRAVE   = 17,
+    AV_CPLACE_DEFENSE_SNOWFALL      = 21,
+    AV_CPLACE_DEFENSE_FROSTWOLF     = 25,
+    AV_CPLACE_DEFENSE_ICE_GRAVE     = 29,
+    AV_CPLACE_DEFENSE_FROST_HUT     = 33,
 
-    AV_CPLACE_DEFENSE_DUN_S          = 37,
-    AV_CPLACE_DEFENSE_DUN_N          = 41,
-    AV_CPLACE_DEFENSE_ICEWING        = 45,
-    AV_CPLACE_DEFENSE_STONE_TOWER    = 49,
-    AV_CPLACE_DEFENSE_ICE_TOWER      = 53,
-    AV_CPLACE_DEFENSE_TOWERPOINT     = 57,
-    AV_CPLACE_DEFENSE_FROST_E        = 61,
-    AV_CPLACE_DEFENSE_FROST_t        = 65,
+    AV_CPLACE_DEFENSE_DUN_S         = 37,
+    AV_CPLACE_DEFENSE_DUN_N         = 41,
+    AV_CPLACE_DEFENSE_ICEWING       = 45,
+    AV_CPLACE_DEFENSE_STONE_TOWER   = 49,
+    AV_CPLACE_DEFENSE_ICE_TOWER     = 53,
+    AV_CPLACE_DEFENSE_TOWERPOINT    = 57,
+    AV_CPLACE_DEFENSE_FROST_E       = 61,
+    AV_CPLACE_DEFENSE_FROST_t       = 65,
 
     AV_CPLACE_A_MARSHAL_SOUTH       = 69,
     AV_CPLACE_A_MARSHAL_NORTH       = 70,
@@ -575,25 +575,25 @@ enum BG_AV_CreaturePlace
     AV_CPLACE_H_MARSHAL_WTOWER      = 76,
     //irondeep
     //miner:
-    AV_CPLACE_MINE_N_1_MIN      = 77,
-    AV_CPLACE_MINE_N_1_MAX      = 136,
+    AV_CPLACE_MINE_N_1_MIN    = 77,
+    AV_CPLACE_MINE_N_1_MAX    = 136,
     //special types
-    AV_CPLACE_MINE_N_2_MIN      = 137,
-    AV_CPLACE_MINE_N_2_MAX      = 192,
+    AV_CPLACE_MINE_N_2_MIN    = 137,
+    AV_CPLACE_MINE_N_2_MAX    = 192,
     //boss
-    AV_CPLACE_MINE_N_3          = 193,
+    AV_CPLACE_MINE_N_3        = 193,
     //coldtooth
     //miner:
-    AV_CPLACE_MINE_S_1_MIN      = 194,
-    AV_CPLACE_MINE_S_1_MAX      = 250,
+    AV_CPLACE_MINE_S_1_MIN    = 194,
+    AV_CPLACE_MINE_S_1_MAX    = 250,
     //special types
-    AV_CPLACE_MINE_S_2_MIN      = 251,
-    AV_CPLACE_MINE_S_2_MAX      = 289,
+    AV_CPLACE_MINE_S_2_MIN    = 251,
+    AV_CPLACE_MINE_S_2_MAX    = 289,
     //vermin
-    AV_CPLACE_MINE_S_S_MIN      = 290,
-    AV_CPLACE_MINE_S_S_MAX      = 299,
+    AV_CPLACE_MINE_S_S_MIN    = 290,
+    AV_CPLACE_MINE_S_S_MAX    = 299,
     //boss
-    AV_CPLACE_MINE_S_3          = 300,
+    AV_CPLACE_MINE_S_3        = 300,
 
     //herald
     AV_CPLACE_HERALD          = 301,
@@ -1047,15 +1047,15 @@ const uint32 BG_AV_CreatureInfo[AV_NPC_INFO_MAX][4] =
     { 13331, 1216, 60, 60 }, //Veteran Defender
     { 13422, 1216, 61, 61 }, //Champion Defender
     { 13358, 1216, 59, 60 }, //Stormpike Bowman //i think its 60, 61 and 69, 70.. but this is until now not possible TODO look if this is ok
-    { 11949, 469, 0, 0}, //not spawned with this data, but used for handlekillunit
-    { 11948, 469, 0, 0}, //not spawned with this data, but used for handlekillunit
+    { 11949, 469, 0, 0},     //not spawned with this data, but used for handlekillunit
+    { 11948, 469, 0, 0},     //not spawned with this data, but used for handlekillunit
     { 12053, 1214, 58, 58 }, //Frostwolf Guardian
     { 13328, 1214, 59, 59 }, //Seasoned Guardian
     { 13332, 1214, 60, 60 }, //Veteran Guardian
     { 13421, 1214, 61, 61 }, //Champion Guardian
     { 13359, 1214, 59, 60 }, //Frostwolf Bowman
-    { 11947, 67, 0, 0}, //not spawned with this data, but used for handlekillunit
-    { 11946, 67, 0, 0}, //not spawned with this data, but used for handlekillunit
+    { 11947, 67, 0, 0},      //not spawned with this data, but used for handlekillunit
+    { 11946, 67, 0, 0},      //not spawned with this data, but used for handlekillunit
     { 14763, 1534, 60, 60 }, //Dun Baldar South Marshal
     { 14762, 1534, 60, 60 }, //Dun Baldar North Marshal
     { 14764, 1534, 60, 60 }, //Icewing Marshal
@@ -1066,186 +1066,186 @@ const uint32 BG_AV_CreatureInfo[AV_NPC_INFO_MAX][4] =
     { 14772, 1214, 60, 60 }, //East Frostwolf Warmaster
     { 14777, 1214, 60, 60 }, //West Frostwolf Warmaster
 
-    { 10987, 59, 52, 53 }, //Irondeep Trogg
-    { 11600, 59, 53, 54 }, //Irondeep Shaman
-    { 11602, 59, 54, 55 }, //Irondeep Skullthumper
-    { 11657, 59, 58, 58 }, //Morloch
+    { 10987, 59, 52, 53 },   //Irondeep Trogg
+    { 11600, 59, 53, 54 },   //Irondeep Shaman
+    { 11602, 59, 54, 55 },   //Irondeep Skullthumper
+    { 11657, 59, 58, 58 },   //Morloch
 
-    {13396, 469, 52, 53}, //irondeep alliance TODO: get the right ids
+    {13396, 469, 52, 53},    //irondeep alliance TODO: get the right ids
     {13080, 469, 53, 54},
     {13098, 469, 54, 55},
     {13078, 469, 58, 58},
 
-    {13397, 67, 52, 53}, //irondeep horde
+    {13397, 67, 52, 53},     //irondeep horde
     {13099, 67, 53, 54},
     {13081, 67, 54, 55},
     {13079, 67, 58, 58},
 
-    { 11603, 59, 52, 53 }, //south mine neutral
+    { 11603, 59, 52, 53 },   //south mine neutral
     { 11604, 59, 53, 54 },
     { 11605, 59, 54, 55 },
     { 11677, 59, 58, 58 },
-    { 10982, 59, 52, 53 }, //vermin
+    { 10982, 59, 52, 53 },   //vermin
 
-    {13317, 469, 52, 53}, //alliance
-    {13096, 469, 54, 55}, //explorer
-    {13087, 469, 54, 55}, //invader
+    {13317, 469, 52, 53},    //alliance
+    {13096, 469, 54, 55},    //explorer
+    {13087, 469, 54, 55},    //invader
     {13086, 469, 58, 58},
 
-    {13316, 67, 52, 53}, //horde
-    {13097, 67, 54, 55}, //surveypr
-    {13089, 67, 54, 55}, //guard
+    {13316, 67, 52, 53},     //horde
+    {13097, 67, 54, 55},     //surveypr
+    {13089, 67, 54, 55},     //guard
     {13088, 67, 58, 58},
-    {14848, 67, 58, 58} //Herald
+    {14848, 67, 58, 58}      //Herald
 };
 
 //x, y, z, o, static_creature_info-id
 const float BG_AV_StaticCreaturePos[AV_STATICCPLACE_MAX][5] =
 {
     //static creatures
-    {-1235.31f, -340.777f, 60.5088f, 3.31613f, 0 }, //2225 - Zora Guthrek
-    {-1244.02f, -323.795f, 61.0485f, 5.21853f, 1 }, //3343 - Grelkor
-    {-1235.16f, -332.302f, 60.2985f, 2.96706f, 2 }, //3625 - Rarck
-    {587.303f, -42.8257f, 37.5615f, 5.23599f, 3 }, //4255 - Brogus Thunderbrew
-    {643.635f, -58.3987f, 41.7405f, 4.72984f, 4 }, //4257 - Lana Thunderbrew
-    {591.464f, -44.452f, 37.6166f, 5.65487f, 5 }, //5134 - Jonivera Farmountain
-    {608.515f, -33.3935f, 42.0003f, 5.41052f, 6 }, //5135 - Svalbrad Farmountain
-    {617.656f, -32.0701f, 42.7168f, 4.06662f, 7 }, //5139 - Kurdrum Barleybeard
-    {-1183.76f, -268.295f, 72.8233f, 3.28122f, 8 }, //10364 - Yaelika Farclaw
-    {-1187.86f, -275.31f, 73.0481f, 3.63028f, 9 }, //10367 - Shrye Ragefist
-    {-1008.42f, -368.006f, 55.3426f, 5.95647f, 10 }, //10981 - Frostwolf
-    {-1091.92f, -424.28f, 53.0139f, 2.93958f, 10 }, //10981 - Frostwolf
-    {-558.455f, -198.768f, 58.1755f, 4.97946f, 10 }, //10981 - Frostwolf
-    {-861.247f, -312.51f, 55.1427f, 3.35382f, 10 }, //10981 - Frostwolf
-    {-1003.81f, -395.913f, 50.4736f, 2.85631f, 10 }, //10981 - Frostwolf
-    {-904.5f, -289.815f, 65.1222f, 5.7847f, 10 }, //10981 - Frostwolf
-    {-1064.41f, -438.839f, 51.3614f, 1.88857f, 10 }, //10981 - Frostwolf
-    {258.814f, 76.2017f, 18.6468f, 6.19052f, 11 }, //10986 - Snowblind Harpy
-    {265.838f, -315.846f, -16.5429f, 3.15917f, 11 }, //10986 - Snowblind Harpy
-    {426.485f, -51.1927f, -5.66286f, 1.60347f, 11 }, //10986 - Snowblind Harpy
-    {452.044f, -33.9594f, -0.044651f, 2.72815f, 11 }, //10986 - Snowblind Harpy
-    {266.032f, -315.639f, -16.5429f, 4.67962f, 11 }, //10986 - Snowblind Harpy
-    {532.64f, -54.5863f, 20.7024f, 2.93215f, 11 }, //10986 - Snowblind Harpy
-    {295.183f, -299.908f, -34.6123f, 0.135851f, 12 }, //10990 - Alterac Ram
-    {421.08f, -225.006f, -23.73f, 0.166754f, 12 }, //10990 - Alterac Ram
-    {-55.7766f, -192.498f, 20.4352f, 6.12221f, 12 }, //10990 - Alterac Ram
-    {527.887f, -477.223f, 62.3559f, 0.170935f, 12 }, //10990 - Alterac Ram
-    {389.144f, -346.508f, -30.334f, 4.14117f, 12 }, //10990 - Alterac Ram
-    {108.121f, -322.248f, 37.5655f, 4.46788f, 12 }, //10990 - Alterac Ram
-    {507.479f, -67.9403f, 10.3571f, 3.26304f, 12 }, //10990 - Alterac Ram
-    {329.071f, -185.016f, -29.1542f, 0.356943f, 12 }, //10990 - Alterac Ram
-    {252.449f, -422.313f, 35.1404f, 4.53771f, 12 }, //10990 - Alterac Ram
-    {358.882f, -118.061f, -24.9119f, 2.29257f, 12 }, //10990 - Alterac Ram
-    {487.151f, -174.229f, 14.7558f, 4.73192f, 12 }, //10990 - Alterac Ram
-    {449.652f, -123.561f, 6.14273f, 6.12029f, 12 }, //10990 - Alterac Ram
-    {272.419f, -261.802f, -41.8835f, 3.66559f, 12 }, //10990 - Alterac Ram
-    {359.021f, -210.954f, -29.3483f, 4.31339f, 12 }, //10990 - Alterac Ram
-    {450.598f, -318.048f, -37.7548f, 0.655219f, 12 }, //10990 - Alterac Ram
-    {509.333f, -218.2f, 3.05439f, 3.66292f, 12 }, //10990 - Alterac Ram
-    {485.771f, -223.613f, -1.53f, 2.04862f, 12 }, //10990 - Alterac Ram
-    {486.636f, -452.172f, 39.6592f, 2.3341f, 12 }, //10990 - Alterac Ram
-    {702.783f, -257.494f, 25.9777f, 1.68329f, 12 }, //10990 - Alterac Ram
-    {460.942f, -199.263f, -6.0149f, 0.380506f, 12 }, //10990 - Alterac Ram
-    {483.108f, -115.307f, 10.1056f, 3.69701f, 12 }, //10990 - Alterac Ram
-    {471.601f, -154.174f, 14.0702f, 5.5807f, 12 }, //10990 - Alterac Ram
-    {213.938f, -420.793f, 41.2549f, 5.71394f, 12 }, //10990 - Alterac Ram
-    {289.387f, -294.685f, -33.9073f, 0.555494f, 12 }, //10990 - Alterac Ram
-    {155.649f, -402.891f, 43.3915f, 5.94838f, 12 }, //10990 - Alterac Ram
-    {517.184f, -295.105f, -9.78195f, 6.05668f, 12 }, //10990 - Alterac Ram
-    {102.334f, -332.165f, 38.9812f, 3.31445f, 12 }, //10990 - Alterac Ram
-    {320.244f, -107.793f, -42.6357f, -1.00311f, 12 }, //10990 - Alterac Ram
-    {217.976f, 110.774f, 15.7603f, 4.56793f, 13 }, //11675 - Snowblind Windcaller
-    {269.872f, 6.66684f, 20.7592f, 0.381212f, 13 }, //11675 - Snowblind Windcaller
-    {313.528f, -319.041f, -27.2373f, 0.554098f, 13 }, //11675 - Snowblind Windcaller
+    {-1235.31f, -340.777f, 60.5088f, 3.31613f, 0 },    //2225 - Zora Guthrek
+    {-1244.02f, -323.795f, 61.0485f, 5.21853f, 1 },    //3343 - Grelkor
+    {-1235.16f, -332.302f, 60.2985f, 2.96706f, 2 },    //3625 - Rarck
+    {587.303f, -42.8257f, 37.5615f, 5.23599f, 3 },     //4255 - Brogus Thunderbrew
+    {643.635f, -58.3987f, 41.7405f, 4.72984f, 4 },     //4257 - Lana Thunderbrew
+    {591.464f, -44.452f, 37.6166f, 5.65487f, 5 },      //5134 - Jonivera Farmountain
+    {608.515f, -33.3935f, 42.0003f, 5.41052f, 6 },     //5135 - Svalbrad Farmountain
+    {617.656f, -32.0701f, 42.7168f, 4.06662f, 7 },     //5139 - Kurdrum Barleybeard
+    {-1183.76f, -268.295f, 72.8233f, 3.28122f, 8 },    //10364 - Yaelika Farclaw
+    {-1187.86f, -275.31f, 73.0481f, 3.63028f, 9 },     //10367 - Shrye Ragefist
+    {-1008.42f, -368.006f, 55.3426f, 5.95647f, 10 },   //10981 - Frostwolf
+    {-1091.92f, -424.28f, 53.0139f, 2.93958f, 10 },    //10981 - Frostwolf
+    {-558.455f, -198.768f, 58.1755f, 4.97946f, 10 },   //10981 - Frostwolf
+    {-861.247f, -312.51f, 55.1427f, 3.35382f, 10 },    //10981 - Frostwolf
+    {-1003.81f, -395.913f, 50.4736f, 2.85631f, 10 },   //10981 - Frostwolf
+    {-904.5f, -289.815f, 65.1222f, 5.7847f, 10 },      //10981 - Frostwolf
+    {-1064.41f, -438.839f, 51.3614f, 1.88857f, 10 },   //10981 - Frostwolf
+    {258.814f, 76.2017f, 18.6468f, 6.19052f, 11 },     //10986 - Snowblind Harpy
+    {265.838f, -315.846f, -16.5429f, 3.15917f, 11 },   //10986 - Snowblind Harpy
+    {426.485f, -51.1927f, -5.66286f, 1.60347f, 11 },   //10986 - Snowblind Harpy
+    {452.044f, -33.9594f, -0.044651f, 2.72815f, 11 },  //10986 - Snowblind Harpy
+    {266.032f, -315.639f, -16.5429f, 4.67962f, 11 },   //10986 - Snowblind Harpy
+    {532.64f, -54.5863f, 20.7024f, 2.93215f, 11 },     //10986 - Snowblind Harpy
+    {295.183f, -299.908f, -34.6123f, 0.135851f, 12 },  //10990 - Alterac Ram
+    {421.08f, -225.006f, -23.73f, 0.166754f, 12 },     //10990 - Alterac Ram
+    {-55.7766f, -192.498f, 20.4352f, 6.12221f, 12 },   //10990 - Alterac Ram
+    {527.887f, -477.223f, 62.3559f, 0.170935f, 12 },   //10990 - Alterac Ram
+    {389.144f, -346.508f, -30.334f, 4.14117f, 12 },    //10990 - Alterac Ram
+    {108.121f, -322.248f, 37.5655f, 4.46788f, 12 },    //10990 - Alterac Ram
+    {507.479f, -67.9403f, 10.3571f, 3.26304f, 12 },    //10990 - Alterac Ram
+    {329.071f, -185.016f, -29.1542f, 0.356943f, 12 },  //10990 - Alterac Ram
+    {252.449f, -422.313f, 35.1404f, 4.53771f, 12 },    //10990 - Alterac Ram
+    {358.882f, -118.061f, -24.9119f, 2.29257f, 12 },   //10990 - Alterac Ram
+    {487.151f, -174.229f, 14.7558f, 4.73192f, 12 },    //10990 - Alterac Ram
+    {449.652f, -123.561f, 6.14273f, 6.12029f, 12 },    //10990 - Alterac Ram
+    {272.419f, -261.802f, -41.8835f, 3.66559f, 12 },   //10990 - Alterac Ram
+    {359.021f, -210.954f, -29.3483f, 4.31339f, 12 },   //10990 - Alterac Ram
+    {450.598f, -318.048f, -37.7548f, 0.655219f, 12 },  //10990 - Alterac Ram
+    {509.333f, -218.2f, 3.05439f, 3.66292f, 12 },      //10990 - Alterac Ram
+    {485.771f, -223.613f, -1.53f, 2.04862f, 12 },      //10990 - Alterac Ram
+    {486.636f, -452.172f, 39.6592f, 2.3341f, 12 },     //10990 - Alterac Ram
+    {702.783f, -257.494f, 25.9777f, 1.68329f, 12 },    //10990 - Alterac Ram
+    {460.942f, -199.263f, -6.0149f, 0.380506f, 12 },   //10990 - Alterac Ram
+    {483.108f, -115.307f, 10.1056f, 3.69701f, 12 },    //10990 - Alterac Ram
+    {471.601f, -154.174f, 14.0702f, 5.5807f, 12 },     //10990 - Alterac Ram
+    {213.938f, -420.793f, 41.2549f, 5.71394f, 12 },    //10990 - Alterac Ram
+    {289.387f, -294.685f, -33.9073f, 0.555494f, 12 },  //10990 - Alterac Ram
+    {155.649f, -402.891f, 43.3915f, 5.94838f, 12 },    //10990 - Alterac Ram
+    {517.184f, -295.105f, -9.78195f, 6.05668f, 12 },   //10990 - Alterac Ram
+    {102.334f, -332.165f, 38.9812f, 3.31445f, 12 },    //10990 - Alterac Ram
+    {320.244f, -107.793f, -42.6357f, -1.00311f, 12 },  //10990 - Alterac Ram
+    {217.976f, 110.774f, 15.7603f, 4.56793f, 13 },     //11675 - Snowblind Windcaller
+    {269.872f, 6.66684f, 20.7592f, 0.381212f, 13 },    //11675 - Snowblind Windcaller
+    {313.528f, -319.041f, -27.2373f, 0.554098f, 13 },  //11675 - Snowblind Windcaller
     {435.441f, -39.9289f, -0.169651f, 0.549454f, 13 }, //11675 - Snowblind Windcaller
-    {315.115f, -317.62f, -29.1123f, 0.90111f, 13 }, //11675 - Snowblind Windcaller
-    {428.091f, -122.731f, 3.40332f, 6.05901f, 14 }, //11678 - Snowblind Ambusher
-    {235.05f, 85.5705f, 18.3079f, -0.914255f, 14 }, //11678 - Snowblind Ambusher
-    {-1553.04f, -344.342f, 64.4163f, 6.09933f, 15 }, //11839 - Wildpaw Brute
-    {-545.23f, -165.35f, 57.7886f, 3.01145f, 16 }, //11947 - Captain Galvangar
-    {722.43f, -10.9982f, 50.7046f, 3.42085f, 17 }, //11948 - Vanndar Stormpike
-    {-57.7891f, -286.597f, 15.6479f, 6.02139f, 18 }, //11949 - Captain Balinda Stonehearth
-    {930.498f, -520.755f, 93.7334f, 1.8326f, 19 }, //11997 - Stormpike Herald
-    {-776.092f, -345.161f, 67.4092f, 1.89257f, 20 }, //12051 - Frostwolf Legionnaire
-    {-1224.63f, -308.144f, 65.0087f, 4.01139f, 20 }, //12051 - Frostwolf Legionnaire
-    {-713.039f, -442.515f, 82.8638f, 0.68724f, 20 }, //12051 - Frostwolf Legionnaire
-    {-711.783f, -444.061f, 82.7039f, 0.683494f, 20 }, //12051 - Frostwolf Legionnaire
-    {587.633f, -45.9816f, 37.5438f, 5.81195f, 21 }, //12096 - Stormpike Quartermaster
-    {-1293.79f, -194.407f, 72.4398f, 5.84685f, 22 }, //12097 - Frostwolf Quartermaster
-    {446.163f, -377.119f, -1.12725f, 0.209526f, 23 }, //12127 - Stormpike Guardsman
-    {549.348f, -399.254f, 53.3537f, 3.24729f, 23 }, //12127 - Stormpike Guardsman
-    {549.801f, -401.217f, 53.8305f, 3.24729f, 23 }, //12127 - Stormpike Guardsman
-    {192.704f, -406.874f, 42.9183f, 6.10696f, 23 }, //12127 - Stormpike Guardsman
-    {441.305f, -435.765f, 28.2385f, 2.14472f, 23 }, //12127 - Stormpike Guardsman
-    {192.982f, -404.891f, 43.0132f, 6.1061f, 23 }, //12127 - Stormpike Guardsman
-    {355.342f, -391.989f, -0.486707f, 3.00643f, 23 }, //12127 - Stormpike Guardsman
-    {446.035f, -375.104f, -1.12725f, 0.21033f, 23 }, //12127 - Stormpike Guardsman
-    {697.864f, -433.238f, 62.7914f, 1.65776f, 23 }, //12127 - Stormpike Guardsman
-    {610.74f, -331.585f, 30.8021f, 5.14253f, 23 }, //12127 - Stormpike Guardsman
-    {609.815f, -329.775f, 30.9271f, -2.38829f, 23 }, //12127 - Stormpike Guardsman
-    {695.874f, -433.434f, 62.8543f, 1.65776f, 23 }, //12127 - Stormpike Guardsman
-    {443.337f, -435.283f, 28.6842f, 2.13768f, 23 }, //12127 - Stormpike Guardsman
-    {-1251.5f, -316.327f, 62.6565f, 5.02655f, 24 }, //13176 - Smith Regzar
-    {-1332.0f, -331.243f, 91.2631f, 1.50098f, 25 }, //13179 - Wing Commander Guse
-    {569.983f, -94.9992f, 38.0325f, 1.39626f, 26 }, //13216 - Gaelden Hammersmith
-    {-1244.92f, -308.916f, 63.2525f, 1.62316f, 27 }, //13218 - Grunnda Wolfheart
-    {-1319.56f, -342.675f, 60.3404f, 1.20428f, 28 }, //13236 - Primalist Thurloga
-    {647.61f, -61.1548f, 41.7405f, 4.24115f, 29 }, //13257 - Murgot Deepforge
-    {-1321.64f, -343.73f, 60.4833f, 1.01229f, 30 }, //13284 - Frostwolf Shaman
-    {-1317.61f, -342.853f, 60.3726f, 2.47837f, 30 }, //13284 - Frostwolf Shaman
-    {-1319.31f, -344.475f, 60.3825f, 1.72788f, 30 }, //13284 - Frostwolf Shaman
-    {569.963f, -42.0218f, 37.7581f, 4.27606f, 31 }, //13438 - Wing Commander Slidore
-    {729.2f, -78.812f, 51.6335f, 3.97935f, 32 }, //13442 - Arch Druid Renferal
-    {729.118f, -82.8713f, 51.6335f, 2.53073f, 33 }, //13443 - Druid of the Grove
-    {725.554f, -79.4973f, 51.6335f, 5.27089f, 33 }, //13443 - Druid of the Grove
-    {724.768f, -84.1642f, 51.6335f, 0.733038f, 33 }, //13443 - Druid of the Grove
-    {596.68f, -83.0633f, 39.0051f, 6.24828f, 34 }, //13447 - Corporal Noreg Stormpike
-    {600.032f, -2.92475f, 42.0788f, 5.00909f, 35 }, //13577 - Stormpike Ram Rider Commander
-    {610.239f, -21.8454f, 43.272f, 4.90438f, 36 }, //13617 - Stormpike Stable Master
-    {613.422f, -150.764f, 33.4517f, 5.55015f, 37 }, //13797 - Mountaineer Boombellow
-    {-1213.91f, -370.619f, 56.4455f, 0.837758f, 38 }, //13798 - Jotek
-    {704.35f, -22.9071f, 50.2187f, 0.785398f, 39 }, //13816 - Prospector Stonehewer
-    {-1271.24f, -335.766f, 62.3971f, 5.75959f, 40 }, //14185 - Najak Hexxen
-    {-1268.64f, -332.688f, 62.6171f, 5.28835f, 41 }, //14186 - Ravak Grimtotem
-    {648.363f, -65.2233f, 41.7405f, 3.12414f, 42 }, //14187 - Athramanis
-    {648.238f, -67.8931f, 41.7405f, 2.60054f, 43 }, //14188 - Dirk Swindle
-    {-1223.44f, -309.833f, 64.9331f, 4.0131f, 44 }, //14282 - Frostwolf Bloodhound
-    {-1226.4f, -307.136f, 64.9706f, 4.0145f, 44 }, //14282 - Frostwolf Bloodhound
-    {356.001f, -389.969f, -0.438796f, 3.0334f, 45 }, //14283 - Stormpike Owl
-    {355.835f, -394.005f, -0.60149f, 3.02498f, 45 }, //14283 - Stormpike Owl
-    {882.266f, -496.378f, 96.7707f, 4.83248f, 45 }, //14283 - Stormpike Owl
-    {878.649f, -495.917f, 96.6171f, 4.67693f, 45 }, //14283 - Stormpike Owl
-    {932.851f, -511.017f, 93.6748f, 3.61004f, 45 }, //14283 - Stormpike Owl
-    {935.806f, -513.983f, 93.7436f, 3.61788f, 45 }, //14283 - Stormpike Owl
-    {947.412f, -509.982f, 95.1098f, 2.82743f, 46 }, //14284 - Stormpike Battleguard
-    {934.557f, -512.395f, 93.662f, 3.61004f, 46 }, //14284 - Stormpike Battleguard
-    {939.42f, -502.777f, 94.5887f, 5.14872f, 46 }, //14284 - Stormpike Battleguard
-    {854.276f, -494.241f, 96.8017f, 5.44543f, 46 }, //14284 - Stormpike Battleguard
-    {776.621f, -487.775f, 99.4049f, 3.50811f, 46 }, //14284 - Stormpike Battleguard
-    {880.169f, -495.699f, 96.6204f, 4.8325f, 46 }, //14284 - Stormpike Battleguard
-    {773.651f, -497.482f, 99.0408f, 2.11185f, 46 }, //14284 - Stormpike Battleguard
-    {949.1f, -506.913f, 95.4237f, 3.31613f, 46 }, //14284 - Stormpike Battleguard
-    {-1370.9f, -219.793f, 98.4258f, 5.04381f, 47}, //drek thar
+    {315.115f, -317.62f, -29.1123f, 0.90111f, 13 },    //11675 - Snowblind Windcaller
+    {428.091f, -122.731f, 3.40332f, 6.05901f, 14 },    //11678 - Snowblind Ambusher
+    {235.05f, 85.5705f, 18.3079f, -0.914255f, 14 },    //11678 - Snowblind Ambusher
+    {-1553.04f, -344.342f, 64.4163f, 6.09933f, 15 },   //11839 - Wildpaw Brute
+    {-545.23f, -165.35f, 57.7886f, 3.01145f, 16 },     //11947 - Captain Galvangar
+    {722.43f, -10.9982f, 50.7046f, 3.42085f, 17 },     //11948 - Vanndar Stormpike
+    {-57.7891f, -286.597f, 15.6479f, 6.02139f, 18 },   //11949 - Captain Balinda Stonehearth
+    {930.498f, -520.755f, 93.7334f, 1.8326f, 19 },     //11997 - Stormpike Herald
+    {-776.092f, -345.161f, 67.4092f, 1.89257f, 20 },   //12051 - Frostwolf Legionnaire
+    {-1224.63f, -308.144f, 65.0087f, 4.01139f, 20 },   //12051 - Frostwolf Legionnaire
+    {-713.039f, -442.515f, 82.8638f, 0.68724f, 20 },   //12051 - Frostwolf Legionnaire
+    {-711.783f, -444.061f, 82.7039f, 0.683494f, 20 },  //12051 - Frostwolf Legionnaire
+    {587.633f, -45.9816f, 37.5438f, 5.81195f, 21 },    //12096 - Stormpike Quartermaster
+    {-1293.79f, -194.407f, 72.4398f, 5.84685f, 22 },   //12097 - Frostwolf Quartermaster
+    {446.163f, -377.119f, -1.12725f, 0.209526f, 23 },  //12127 - Stormpike Guardsman
+    {549.348f, -399.254f, 53.3537f, 3.24729f, 23 },    //12127 - Stormpike Guardsman
+    {549.801f, -401.217f, 53.8305f, 3.24729f, 23 },    //12127 - Stormpike Guardsman
+    {192.704f, -406.874f, 42.9183f, 6.10696f, 23 },    //12127 - Stormpike Guardsman
+    {441.305f, -435.765f, 28.2385f, 2.14472f, 23 },    //12127 - Stormpike Guardsman
+    {192.982f, -404.891f, 43.0132f, 6.1061f, 23 },     //12127 - Stormpike Guardsman
+    {355.342f, -391.989f, -0.486707f, 3.00643f, 23 },  //12127 - Stormpike Guardsman
+    {446.035f, -375.104f, -1.12725f, 0.21033f, 23 },   //12127 - Stormpike Guardsman
+    {697.864f, -433.238f, 62.7914f, 1.65776f, 23 },    //12127 - Stormpike Guardsman
+    {610.74f, -331.585f, 30.8021f, 5.14253f, 23 },     //12127 - Stormpike Guardsman
+    {609.815f, -329.775f, 30.9271f, -2.38829f, 23 },   //12127 - Stormpike Guardsman
+    {695.874f, -433.434f, 62.8543f, 1.65776f, 23 },    //12127 - Stormpike Guardsman
+    {443.337f, -435.283f, 28.6842f, 2.13768f, 23 },    //12127 - Stormpike Guardsman
+    {-1251.5f, -316.327f, 62.6565f, 5.02655f, 24 },    //13176 - Smith Regzar
+    {-1332.0f, -331.243f, 91.2631f, 1.50098f, 25 },    //13179 - Wing Commander Guse
+    {569.983f, -94.9992f, 38.0325f, 1.39626f, 26 },    //13216 - Gaelden Hammersmith
+    {-1244.92f, -308.916f, 63.2525f, 1.62316f, 27 },   //13218 - Grunnda Wolfheart
+    {-1319.56f, -342.675f, 60.3404f, 1.20428f, 28 },   //13236 - Primalist Thurloga
+    {647.61f, -61.1548f, 41.7405f, 4.24115f, 29 },     //13257 - Murgot Deepforge
+    {-1321.64f, -343.73f, 60.4833f, 1.01229f, 30 },    //13284 - Frostwolf Shaman
+    {-1317.61f, -342.853f, 60.3726f, 2.47837f, 30 },   //13284 - Frostwolf Shaman
+    {-1319.31f, -344.475f, 60.3825f, 1.72788f, 30 },   //13284 - Frostwolf Shaman
+    {569.963f, -42.0218f, 37.7581f, 4.27606f, 31 },    //13438 - Wing Commander Slidore
+    {729.2f, -78.812f, 51.6335f, 3.97935f, 32 },       //13442 - Arch Druid Renferal
+    {729.118f, -82.8713f, 51.6335f, 2.53073f, 33 },    //13443 - Druid of the Grove
+    {725.554f, -79.4973f, 51.6335f, 5.27089f, 33 },    //13443 - Druid of the Grove
+    {724.768f, -84.1642f, 51.6335f, 0.733038f, 33 },   //13443 - Druid of the Grove
+    {596.68f, -83.0633f, 39.0051f, 6.24828f, 34 },     //13447 - Corporal Noreg Stormpike
+    {600.032f, -2.92475f, 42.0788f, 5.00909f, 35 },    //13577 - Stormpike Ram Rider Commander
+    {610.239f, -21.8454f, 43.272f, 4.90438f, 36 },     //13617 - Stormpike Stable Master
+    {613.422f, -150.764f, 33.4517f, 5.55015f, 37 },    //13797 - Mountaineer Boombellow
+    {-1213.91f, -370.619f, 56.4455f, 0.837758f, 38 },  //13798 - Jotek
+    {704.35f, -22.9071f, 50.2187f, 0.785398f, 39 },    //13816 - Prospector Stonehewer
+    {-1271.24f, -335.766f, 62.3971f, 5.75959f, 40 },   //14185 - Najak Hexxen
+    {-1268.64f, -332.688f, 62.6171f, 5.28835f, 41 },   //14186 - Ravak Grimtotem
+    {648.363f, -65.2233f, 41.7405f, 3.12414f, 42 },    //14187 - Athramanis
+    {648.238f, -67.8931f, 41.7405f, 2.60054f, 43 },    //14188 - Dirk Swindle
+    {-1223.44f, -309.833f, 64.9331f, 4.0131f, 44 },    //14282 - Frostwolf Bloodhound
+    {-1226.4f, -307.136f, 64.9706f, 4.0145f, 44 },     //14282 - Frostwolf Bloodhound
+    {356.001f, -389.969f, -0.438796f, 3.0334f, 45 },   //14283 - Stormpike Owl
+    {355.835f, -394.005f, -0.60149f, 3.02498f, 45 },   //14283 - Stormpike Owl
+    {882.266f, -496.378f, 96.7707f, 4.83248f, 45 },    //14283 - Stormpike Owl
+    {878.649f, -495.917f, 96.6171f, 4.67693f, 45 },    //14283 - Stormpike Owl
+    {932.851f, -511.017f, 93.6748f, 3.61004f, 45 },    //14283 - Stormpike Owl
+    {935.806f, -513.983f, 93.7436f, 3.61788f, 45 },    //14283 - Stormpike Owl
+    {947.412f, -509.982f, 95.1098f, 2.82743f, 46 },    //14284 - Stormpike Battleguard
+    {934.557f, -512.395f, 93.662f, 3.61004f, 46 },     //14284 - Stormpike Battleguard
+    {939.42f, -502.777f, 94.5887f, 5.14872f, 46 },     //14284 - Stormpike Battleguard
+    {854.276f, -494.241f, 96.8017f, 5.44543f, 46 },    //14284 - Stormpike Battleguard
+    {776.621f, -487.775f, 99.4049f, 3.50811f, 46 },    //14284 - Stormpike Battleguard
+    {880.169f, -495.699f, 96.6204f, 4.8325f, 46 },     //14284 - Stormpike Battleguard
+    {773.651f, -497.482f, 99.0408f, 2.11185f, 46 },    //14284 - Stormpike Battleguard
+    {949.1f, -506.913f, 95.4237f, 3.31613f, 46 },      //14284 - Stormpike Battleguard
+    {-1370.9f, -219.793f, 98.4258f, 5.04381f, 47},     //drek thar
 };
 
 const uint32 BG_AV_StaticCreatureInfo[51][4] =
 {
-    { 2225, 1215, 55, 55 }, //Zora Guthrek
-    { 3343, 1215, 55, 55 }, //Grelkor
-    { 3625, 1215, 55, 55 }, //Rarck
-    { 4255, 1217, 55, 55 }, //Brogus Thunderbrew
-    { 4257, 1217, 55, 55 }, //Lana Thunderbrew
-    { 5134, 1217, 55, 55 }, //Jonivera Farmountain
-    { 5135, 1217, 55, 55 }, //Svalbrad Farmountain
-    { 5139, 1217, 55, 55 }, //Kurdrum Barleybeard
+    { 2225, 1215, 55, 55 },  //Zora Guthrek
+    { 3343, 1215, 55, 55 },  //Grelkor
+    { 3625, 1215, 55, 55 },  //Rarck
+    { 4255, 1217, 55, 55 },  //Brogus Thunderbrew
+    { 4257, 1217, 55, 55 },  //Lana Thunderbrew
+    { 5134, 1217, 55, 55 },  //Jonivera Farmountain
+    { 5135, 1217, 55, 55 },  //Svalbrad Farmountain
+    { 5139, 1217, 55, 55 },  //Kurdrum Barleybeard
     { 10364, 1215, 55, 55 }, //Yaelika Farclaw
     { 10367, 1215, 55, 55 }, //Shrye Ragefist
-    { 10981, 38, 50, 51 }, //Frostwolf
-    { 10986, 514, 52, 53 }, //Snowblind Harpy
+    { 10981, 38, 50, 51 },   //Frostwolf
+    { 10986, 514, 52, 53 },  //Snowblind Harpy
     { 10990, 1274, 50, 51 }, //Alterac Ram
-    { 11675, 514, 53, 53 }, //Snowblind Windcaller
-    { 11678, 14, 52, 53 }, //Snowblind Ambusher
-    { 11839, 39, 56, 56 }, //Wildpaw Brute
+    { 11675, 514, 53, 53 },  //Snowblind Windcaller
+    { 11678, 14, 52, 53 },   //Snowblind Ambusher
+    { 11839, 39, 56, 56 },   //Wildpaw Brute
     { 11947, 1214, 61, 61 }, //Captain Galvangar --TODO: doubled
     { 11948, 1216, 63, 63 }, //Vanndar Stormpike
     { 11949, 1216, 61, 61 }, //Captain Balinda Stonehearth
@@ -1267,20 +1267,20 @@ const uint32 BG_AV_StaticCreatureInfo[51][4] =
     { 13447, 1216, 58, 58 }, //Corporal Noreg Stormpike
     { 13577, 1216, 60, 60 }, //Stormpike Ram Rider Commander
     { 13617, 1216, 60, 60 }, //Stormpike Stable Master
-    { 13797, 32, 60, 61 }, //Mountaineer Boombellow
+    { 13797, 32, 60, 61 },   //Mountaineer Boombellow
     { 13798, 1214, 60, 61 }, //Jotek
     { 13816, 1216, 61, 61 }, //Prospector Stonehewer
-    { 14185, 877, 59, 59 }, //Najak Hexxen
-    { 14186, 105, 60, 60 }, //Ravak Grimtotem
+    { 14185, 877, 59, 59 },  //Najak Hexxen
+    { 14186, 105, 60, 60 },  //Ravak Grimtotem
     { 14187, 1594, 60, 60 }, //Athramanis
-    { 14188, 57, 59, 59 }, //Dirk Swindle
+    { 14188, 57, 59, 59 },   //Dirk Swindle
     { 14282, 1214, 53, 54 }, //Frostwolf Bloodhound
     { 14283, 1216, 53, 54 }, //Stormpike Owl
     { 14284, 1216, 61, 61 }, //Stormpike Battleguard
     { 11946, 1214, 63, 63 }, //Drek'Thar //TODO: make the levels right (boss=0 maybe)
     { 11948, 1216, 63, 63 }, //Vanndar Stormpike
     { 11947, 1214, 61, 61 }, //Captain Galvangar
-    { 11949, 1216, 61, 61 } //Captain Balinda Stonehearth
+    { 11949, 1216, 61, 61 }  //Captain Balinda Stonehearth
 };
 
 enum BG_AV_Graveyards
@@ -1311,24 +1311,24 @@ const uint32 BG_AV_GraveyardIds[9]=
 
 enum BG_AV_BUFF
 { //TODO add all other buffs here
-    AV_BUFF_ARMOR = 21163,
+    AV_BUFF_ARMOR     = 21163,
     AV_BUFF_A_CAPTAIN = 23693, //the buff which the alliance captain does
     AV_BUFF_H_CAPTAIN = 22751 //the buff which the horde captain does
 };
 enum BG_AV_States
 {
-    POINT_NEUTRAL              =  0,
-    POINT_ASSAULTED            =  1,
-    POINT_DESTROYED            =  2,
-    POINT_CONTROLED            =  3
+    POINT_NEUTRAL   =  0,
+    POINT_ASSAULTED =  1,
+    POINT_DESTROYED =  2,
+    POINT_CONTROLED =  3
 };
 
 enum BG_AV_WorldStates
 {
-    AV_Alliance_Score               = 3127,
-    AV_Horde_Score                  = 3128,
-    AV_SHOW_H_SCORE                 = 3133,
-    AV_SHOW_A_SCORE                 = 3134,
+    AV_Alliance_Score = 3127,
+    AV_Horde_Score    = 3128,
+    AV_SHOW_H_SCORE   = 3133,
+    AV_SHOW_A_SCORE   = 3134,
 
 /*
     //the comments behind the state shows which icon overlaps the other.. but is, until now, unused and maybe not a good solution (but give few performance (:)
@@ -1415,9 +1415,9 @@ enum BG_AV_WorldStates
 
 //mines
 
-    AV_N_MINE_N              = 1360,
-    AV_N_MINE_A              = 1358,
-    AV_N_MINE_H              = 1359,
+    AV_N_MINE_N                     = 1360,
+    AV_N_MINE_A                     = 1358,
+    AV_N_MINE_H                     = 1359,
 
     AV_S_MINE_N                     = 1357,
     AV_S_MINE_A                     = 1355,

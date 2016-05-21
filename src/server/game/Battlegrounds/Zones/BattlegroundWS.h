@@ -57,7 +57,7 @@ enum BG_WS_WorldStates
 {
     BG_WS_FLAG_UNK_ALLIANCE       = 1545,
     BG_WS_FLAG_UNK_HORDE          = 1546,
-//    FLAG_UNK                      = 1547,
+    //FLAG_UNK                    = 1547,
     BG_WS_FLAG_CAPTURES_ALLIANCE  = 1581,
     BG_WS_FLAG_CAPTURES_HORDE     = 1582,
     BG_WS_FLAG_CAPTURES_MAX       = 1601,

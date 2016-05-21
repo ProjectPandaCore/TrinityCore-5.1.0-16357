@@ -446,7 +446,7 @@ uint8 const WG_MAX_KEEP_NPC         = 39;
 uint8 const WG_MAX_OUTSIDE_NPC      = 14;
 uint8 const WG_OUTSIDE_ALLIANCE_NPC = 7;
 uint8 const WG_MAX_TELEPORTER       = 12;
-uint8 const WG_MAX_WORKSHOP = 6;
+uint8 const WG_MAX_WORKSHOP         = 6;
 
 enum WintergraspGameObjectBuildingType
 {
@@ -1062,13 +1062,13 @@ struct BfWGGameObjectBuilding
 {
     BfWGGameObjectBuilding(BattlefieldWG* WG)
     {
-        m_WG = WG;
-        m_Team = 0;
-        m_BuildGUID = 0;
-        m_Type = 0;
+        m_WG         = WG;
+        m_Team       = 0;
+        m_BuildGUID  = 0;
+        m_Type       = 0;
         m_WorldState = 0;
-        m_State = 0;
-        m_NameId = 0;
+        m_State      = 0;
+        m_NameId     = 0;
     }
 
     // the team that controls this point
@@ -1548,13 +1548,13 @@ struct WintergraspWorkshopData
 
     WintergraspWorkshopData(BattlefieldWG* WG)
     {
-        m_WG = WG;
-        m_BuildGUID = 0;
-        m_Type = 0;
-        m_State = 0;
-        m_WorldState = 0;
+        m_WG          = WG;
+        m_BuildGUID   = 0;
+        m_Type        = 0;
+        m_State       = 0;
+        m_WorldState  = 0;
         m_TeamControl = 0;
-        m_NameId = 0;
+        m_NameId      = 0;
     }
 
     // Spawning associate creature and store them

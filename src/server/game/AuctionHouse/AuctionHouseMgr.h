@@ -48,7 +48,7 @@ enum AuctionError
 enum AuctionAction
 {
     AUCTION_SELL_ITEM = 0,
-    AUCTION_CANCEL = 1,
+    AUCTION_CANCEL    = 1,
     AUCTION_PLACE_BID = 2
 };
 
